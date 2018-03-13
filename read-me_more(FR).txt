@@ -1,0 +1,24 @@
+
+Stockhausen's Elektronisches Studie II
+
+
+Antonio de Sousa Dias
+
+
+Les orchestres et partitions Csound que nous présentons, proposent une simulation du début de Elektronische Studie II (1954) de Stockhausen décliné en deux versions.
+
+Une première transcription respecte le niveau de surface de la partie qu’on appelle communément de « partition » : l’indication de la disposition temporelle des événements et leur comportement global. Ainsi, notre premier pas a consisté dans la transcription de la partition et la conception de l’orchestre. Nous avons décidé de le concevoir comme un instrument se dédoublant en cinq variantes : à chaque nombre d’instruments correspond un type de mélange sonore (Tongemisch). Évidemment, ces instruments ne donnent pas le résultat qu’on entend dans l’oeuvre. En effet, à l’époque Stockhausen se confrontait à la recherche de moyens pour rendre les sons vifs, en raison du caractère très statique des matériaux de Elektronisch Studie I. Ainsi, dans la partition, il décrit la méthode d’obtention de tels sons.
+
+La deuxième version de l’orchestre prend en considération la totalité des informations de la partition, c’est-à-dire que les instruments créés simulent une possibilité d’obtention de tels sons, bien que par un moyen détourné (sur le moment et non précédemment). Le déclenchement de l’instrument provoque une succession d’impulsions respectant les fréquences et les durées indiquées qui sont envoyées dans une chambre de réverbération réglée à 10 secondes. Le résultat, saisi après une demi seconde, est soumis à une modulation de forme dynamique ; c’est-à-dire qu’on n’écoute aucun son produit par l’instrument pendant sa première seconde d’activation. La seule modification de la partition consiste dans l’ajout d’une seconde à la durée de chaque événement. Ce résultat est plus convaincant que le premier, parce qu’il traduit plus fidèlement la partition concernant les dispositions temporelles, mais surtout la méthode de production des résultats.
+
+Le patch Max/MSP accompagnant les fichiers Csound consiste dans un synthétiseur monophonique en proposant les mêmes deux approches en temps réel.
+
+Ces patches ont été développés par António de Sousa Dias dans le cadre d'un doctorat en convention avec Fundação para a Ciência e a Tecnologia (Ministério da Ciência, Tecnologia e Ensino Superior - Portugal).
+
+Antonio de Sousa Dias
+Universidade de Lisboa, Faculdade de Belas Artes
+a.sousadias@belasartes.ulisboa.pt
+www.sousadias.com
+
+
+These patches are distributed in the hope that they will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.

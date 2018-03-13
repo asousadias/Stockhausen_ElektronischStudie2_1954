@@ -1,0 +1,8 @@
+;                    ; STUDIE II, Stockhausen (excerpt) Csound orchestra Version 1
+;
+; coded by Antonio de SOUSA DIAS
+;
+; this version follows frequency, length and amplitude indicated
+; in the score. See version 2 to see a simulation of the technique
+; used by Sctockhausen to obtain the real sounds.
+;sr = 44100kr = 4410ksmps = 10nchnls = 1; each instrument corresponds to a different sound mixture typeinstr 1, 2, 3, 4, 5itipo	= p1	;iamp0 = ampdb(90-p4) / 5iamp1 = ampdb(90-p5) / 5ifreq0 = p6if ( itipo == 1) igoto tipo1if ( itipo == 2) igoto tipo2if ( itipo == 3) igoto tipo3if ( itipo == 4) igoto tipo4if ( itipo == 5) igoto tipo5tipo1:ifreq1	= int(ifreq0*1.0665+0.5)ifreq2	= int(ifreq0*1.1374+0.5)ifreq3	= int(ifreq0*1.2131+0.5)ifreq4	= int(ifreq0*1.2937+0.5)igoto continuetipo2:ifreq1	= int(ifreq0*1.1374+0.5)ifreq2	= int(ifreq0*1.2937+0.5)ifreq3	= int(ifreq0*1.4714+0.5)ifreq4	= int(ifreq0*1.6736+0.5)igoto continuetipo3:ifreq1	= int(ifreq0*1.2130+0.5)ifreq2	= int(ifreq0*1.4715+0.5)ifreq3	= int(ifreq0*1.7849+0.5)ifreq4	= int(ifreq0*2.1652+0.5)igoto continuetipo4:ifreq1	= int(ifreq0*1.2937+0.5)ifreq2	= int(ifreq0*1.6737+0.5)ifreq3	= int(ifreq0*2.1652+0.5)ifreq4	= int(ifreq0*2.8011+0.5)igoto continuetipo5:ifreq1	= int(ifreq0*1.3797+0.5)ifreq2	= int(ifreq0*1.9036+0.5)ifreq3	= int(ifreq0*2.6264+0.5)ifreq4	= int(ifreq0*3.6236+0.5)continue:kamp	linseg	0, 0.01, iamp0, p3-0.02, iamp1, 0.01, 0a1		oscil	kamp, ifreq0, 1a2		oscil	kamp, ifreq1, 1a3		oscil	kamp, ifreq2, 1a4		oscil	kamp, ifreq3, 1a5		oscil	kamp, ifreq4, 1		out	(a1 + a2 + a3 + a4 + a5)endin
