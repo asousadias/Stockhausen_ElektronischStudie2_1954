@@ -17,6 +17,8 @@ You will notice the better results of this second version.
 The Max/MSP implementation patch shows the same two approaches in real-time.
 It consists in a monophonic synthesizer showing the same principles (that's the reason why you should let the notes sound untill the end, otherwise you will get artifacts.
 
+See the article (in french) Deux contributions à la pédagogie de la musique électroacoustique et l’informatique musicale, at www.grame.fr/jim07/download/11-SousaDias.pdf
+
 Enjoy
 
 Antonio de Sousa Dias
