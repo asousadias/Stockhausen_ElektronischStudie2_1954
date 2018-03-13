@@ -13,7 +13,7 @@ La deuxième version de l'orchestre prend en considération la totalité des inf
 
 Le patch Max/MSP accompagnant les fichiers Csound consiste dans un synthétiseur monophonique en proposant les mmes deux approches en temps réel.
 
-Ces patches ont été développés par António de Sousa Dias dans le cadre d'un doctorat en convention avec Fundação para a Ciência e a Tecnologia (Ministério da Ciência, Tecnologia e Ensino Superior - Portugal).
+Ces patches ont été développés par António de Sousa Dias dans le cadre d'un doctorat en convention avec Fundação para a Ciência e a Tecnologia (Ministério da Ciência, Tecnologia e Ensino Superior - Portugal).
 
 Antonio de Sousa Dias
 Universidade de Lisboa, Faculdade de Belas Artes
