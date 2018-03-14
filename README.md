@@ -22,8 +22,12 @@ See the article (in french) Deux contributions à la pédagogie de la musique é
 Enjoy
 
 Antonio de Sousa Dias
+
 Universidade de Lisboa, Faculdade de Belas Artes
-a.sousadias@belasartes.ulisboa.pt
+http://www.belasartes.ulisboa.pt/
+
+mailto:a.sousadias@belasartes.ulisboa.pt
+
 www.sousadias.com
 
 
