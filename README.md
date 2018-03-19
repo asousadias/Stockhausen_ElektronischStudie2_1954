@@ -1,4 +1,4 @@
-# studie2
+# Stockhausen's Elektronisches Studie II: Instrument simulation design
 Csound and Max/MSP files proposing a simulation of the instruments used in Stockhausen's Elektronisch Studie II (1954)
 
 Instrument simulation designed by 
