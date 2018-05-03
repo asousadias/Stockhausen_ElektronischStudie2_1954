@@ -4,7 +4,7 @@ Csound and Max/MSP files proposing a simulation of the instruments used in Stock
 Instrument simulation designed by 
 Antonio de Sousa Dias
 
-The Max/MSP patches and the Csound orchestras and scores provided here, show an attempt to simulate the techniques used by Stockhausen's _Elektronisches Studie II_ (1954).
+The Max/MSP patches and the Csound orchestras and scores provided here, are a proposal to simulate the techniques used by Stockhausen's _Elektronisches Studie II_ (1954). The main objective is to show that in order to respect Stockhausen thought you must consider reverberation as an intrinsic part of the instrument sound production and not an external enhancement. That's why in the version 2 instruments, if you turn off reverberation you will have no sound at all.
 
 For the **Csound version**, there are two types of approach:
 
